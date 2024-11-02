@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1730041123783') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Gameboy-1:before {
+  content: "\e88b";
+}
+
+.icon-Arcade:before {
+  content: "\e88c";
+}
+
+.icon-a-Game-Console1:before {
+  content: "\e88d";
+}
+

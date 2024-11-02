@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24891840",
+      "name": "Gameboy-1",
+      "font_class": "Gameboy-1",
+      "unicode": "e88b",
+      "unicode_decimal": 59531
+    },
+    {
+      "icon_id": "24891845",
+      "name": "Arcade",
+      "font_class": "Arcade",
+      "unicode": "e88c",
+      "unicode_decimal": 59532
+    },
+    {
+      "icon_id": "24891848",
+      "name": "Game-Console 1",
+      "font_class": "a-Game-Console1",
+      "unicode": "e88d",
+      "unicode_decimal": 59533
+    }
+  ]
+}

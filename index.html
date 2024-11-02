@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>廖欣雨</title>
+    <link rel="stylesheet" href="./font_ydsxqqdie4/iconfont.css">
+    <style>
+        .yijicaidan > li {
+            list-style: none;
+            background-color: rgb(116, 116, 214);
+            margin: 20px 0; 
+            width: 85px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            border-radius: 8px;
+            position: relative;
+            padding-left: 10px; 
+        }
+        .yijicaidan > li:hover {
+            background-color: #dcdbdb; 
+        }
+        a {
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .iconfont {
+            margin-right: 6px;
+            font-size: 25px; 
+        }
+        .yijihezi {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .erjihezi {
+            position: absolute;
+            left: 100%; 
+            top: 0px;
+            width: 150px;
+            height: auto;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 10px 10px 10px rgb(49, 93, 225); 
+            
+        }
+        .erjicaidan {
+            padding: 0px;
+            width: 100%;
+        }
+        .erjicaidan > li {
+            list-style: none;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+        }
+        .erjicaidan > li:hover {
+            background-color: #e0e0e0; 
+        }
+        .yijicaidan > li:hover > .erjihezi {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijicaidan">
+            <li>
+                <i class="iconfont icon-Gameboy-1"></i><a href="#">单人</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">城邦争霸</a></li>
+                        <li><a href="">造梦西游</a></li>
+                        <li><a href="">生死阻击</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <i class="iconfont icon-Arcade"></i><a href="#">双人</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">Q版泡泡堂</a></li>
+                        <li><a href="">大鱼吃小鱼</a></li>
+                        <li><a href="">森林冰火人</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <i class="iconfont icon-a-Game-Console1"></i><a href="#">三人</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">坦克动荡</a></li>
+                        <li><a href="">炸弹传递</a></li>
+                        <li><a href="">黎明之战</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
